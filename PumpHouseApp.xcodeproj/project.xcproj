@@ -15,9 +15,21 @@
       "kind": "group",
       "path": "PumpHouseApp",
       "children": [
+        {
+          "kind": "group",
+          "path": "Helpers",
+          "children": [
+            { "kind": "group", "path": "Extensions" },
+            { "path": "Resources.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
+          ],
+        },
+        { "path": "TabBarController.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
         { "path": "AppDelegate.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
         { "path": "SceneDelegate.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
-        { "path": "ViewController.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
+        { "path": "HomeViewController.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
+        { "path": "SocialViewController.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
+        { "path": "MapViewController.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
+        { "path": "RewardViewController.swift", "target-membership": [ "PumpHouseApp/compile-sources" ] },
         { "path": "Assets.xcassets", "target-membership": [ "PumpHouseApp/resources" ] },
         { "path": "Info.plist" },
       ],
